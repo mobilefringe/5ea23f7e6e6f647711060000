@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{meta_title}}</title>
+        <link rel="shortcut icon" href="" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{meta_description}}">
+        <meta name="keywords" content="{{meta_keywords}}">
+        <meta name="author" content="">
+        
+        <!-- favicon -->
+        <link rel="shortcut icon" href="https://codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1486396432000/favicon-96x96.png" type="image/x-icon" />
+        
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick.css" rel="stylesheet">
+        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick-theme.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/undefined/animate.css" rel="stylesheet" type="text/css" />
+        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/undefined/demo.css" rel="stylesheet" type="text/css" />
+        <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css" rel="stylesheet"/>
+        <link href="../application.css" rel="stylesheet">
+        <link href="../modal.css" rel="stylesheet">
+        
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!--Mustache is a client side templating engine //github.com/janl/mustache.js/ -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+        
+        <script src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/application/x-javascript/1448835474000/slick.min.js"></script>
+        <script src="//s3.amazonaws.com/kodekloud/sites/568d5ba06e6f6402d6000000/application/x-javascript/undefined/viewportchecker.js"></script>
+        <script src="//s3.amazonaws.com/kodekloud/sites/568d5ba06e6f6402d6000000/application/x-javascript/undefined/headroom.js"></script>
+        <script src='//www.google.com/recaptcha/api.js'></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.min.js"></script>
+        <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
+        <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
+
+        <script src="../application.js"></script>
+        
+        <!--MallMaverick v=0.3-->
+        <script src="//mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
+        <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+
+        <script>
+            setEndPoint('//home.mallmaverick.com/api/v4/home/all.json');
+        </script>
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+           
+            ga('create', 'UA-43741301-1', 'auto');
+            ga('send', 'pageview');
+            var mall_name = "Mall Maverick"
+        </script>
+    </head>
+    <body id="top">
+        {{yield}}
+    </body>
+</html>
