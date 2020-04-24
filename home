@@ -1,0 +1,187 @@
+<link href="//568d5ba06e6f6402d6000000.codecloudapp.com/template.css" rel="stylesheet">
+<script src="//568d5ba06e6f6402d6000000.codecloudapp.com/template.js"></script>
+<section class="template_banner" id="default_template_banner">
+    <div class="inside_container clearfix">
+        <h2 class="text-center inside_main_header col-sm-5 col-xs-12" id="template_title">THE BEST IN SHOPPING CENTER
+            WEBSITE DESIGNS</h2>
+        <br />
+        <p class="text-center desc banner_text" id="template_description"></p>
+        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532713788000/templatepageasset1.png"
+            class="template_banner_image" alt="" />
+    </div>
+</section>
+<section class="template_banner" id="custom_template_banner">
+    <div class="inside_container clearfix">
+        <h2 class="text-right inside_main_header col-sm-12 col-xs-12" id="template_title">Spend time with our designers</h2>
+        <br />
+        <p class="text-center desc banner_text" id="template_description">and help them understand the vision that
+            encaptures the uniqueness of your shopping center.</p>
+        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1499960436000/Mockup Copy.png"
+            class="template_banner_image hidden_phone" alt="" />
+        <img id="orange_line" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1497030625000/Orange Line.png"
+            class="hidden_phone" alt="">
+    </div>
+</section>
+<section class="template_banner" id="corp_template_banner">
+    <div class="inside_container clearfix">
+        <h2 class="text-center inside_main_header col-sm-6 col-xs-12" id="template_title">MALL MAVERICK CORPORATE
+            SOLUTIONS</h2>
+        <br />
+        <div class="banner_text col-sm-12 clearfix">
+            <p class="col-sm-5 col-xs-12" id="template_description">
+                Modern Digital Design that caters to your CMS & branding needs.
+            </p>
+        </div>
+        <div class="col-sm-12">
+            <a id="contact_us_banner_btn" class="send_btn button--ujarak" href="/pages/home-contact">Contact Us</a>
+        </div>
+    </div>
+</section>
+<section class="button_bar clearfix">
+    <div class="col-md-12 ">
+        <div class="inside_container template_btn_contaienr" style="text-align:center">
+            <!--<h3>Mall Maverick Provides... </h3>-->
+            <div class="col-sm-2 col-xs-12">
+
+            </div>
+            <div class="col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn " href="#express" id="standard">
+                    <label> Express </label>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn active_templ_btn" href="#premium" id="premium">
+                    <label> Premium </label>
+                </a>
+            </div>
+            
+            <div class="col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn " href="#custom" id="custom">
+                    <label> Custom </label>
+                </a>
+            </div>
+            <div class="col-sm-1 col-xs-12">
+
+            </div>
+        </div>
+        <div class="inside_container newsletter_btn_contaienr hidden_now" style="text-align:center">
+            <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
+                <a class="template_btn " href="#newsletters" id="newsletters">
+                    <label> Newsletters </label>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="template_content" class="margin_100">
+    <div class="inside_container">
+        <div class="row">
+            <div id="premium_design_container" class="clearfix design_containers">
+                <script id="premium_design_template" type="x-tmpl-mustache/text">
+
+                    <div class="col-xs-12 design_template">
+                        <div class="template_padding">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template "
+                                alt="" style="{{is_new}}">
+                            <a href="/posts/{{slug}}">
+                                <div class="template_img_container" style="position:relative">
+                                    <img src="{{image_url}}" alt="Design Template" class="template_img" />
+                                    <div class="template_hover">
+                                    </div>
+                                    <div class="hover_see_more_btn">
+                                        <h3 class="hover_text">View Full Design </h3>
+                                    </div>
+                                </div>
+                                <h3 class="post_title">{{title}} </h3>
+                            </a>
+
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div id="standard_design_container" class="hidden_now clearfix design_containers">
+                <script id="standard_design_template" type="x-tmpl-mustache/text">
+                    <div class="col-xs-12 design_template">
+                        <div class="template_padding">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template "
+                                alt="" style="{{is_new}}">
+                            <a href="/posts/{{slug}}">
+                                <div class="template_img_container" style="position:relative">
+                                    <img src="{{image_url}}" alt="Design Template" class="template_img" />
+                                    <div class="template_hover">
+                                    </div>
+                                    <div class="hover_see_more_btn">
+                                        <h3 class="hover_text">View Full Design </h3>
+                                    </div>
+                                </div>
+                                <h3 class="post_title">{{title}} </h3>
+                            </a>
+
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div id="custom_design_container" class="hidden_now clearfix design_containers">
+                <img id="custom_bg_asset" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1499960436000/Mockup Copy.png"
+                    class="hidden_now" alt="">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4> This design process asks for creative input and offers for full customization and exclusivity
+                        on all
+                        design and development.</h4>
+                    <img id="orange_line" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png"
+                        class="" alt="">
+                    <p>
+
+                        Projects in this space are priced out individually after a discovery meeting with the shopping
+                        center.
+                    </p>
+                </div>
+            </div>
+            <div id="newsletter_design_container" class="hidden_now clearfix design_containers">
+                <script id="newsletter_design_template" type="x-tmpl-mustache/text">
+
+                    <div class="col-md-4 col-sm-6 design_template">
+                        <div class="template_padding">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template "
+                                alt="" style="{{is_new}}">
+                            <a href="/posts/{{slug}}">
+                                <div class="template_img_container" style="position:relative">
+                                    <img src="{{image_url}}" alt="Design Template" class="template_img" "/>
+                                    <div class="template_hover ">
+                                    </div>
+                                    <div class="hover_see_more_btn ">
+                                        <h3 class="hover_text ">View Full Design </h3>
+                                    </div>
+                                </div>
+                                <h3 class="post_title ">{{title}}  <i class="fa fa-arrow-right " aria-hidden="true "></i></h3>
+                            </a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div id="corp_design_container" class="clearfix design_containers">
+                <script id="corp_design_template" type="x-tmpl-mustache/text">
+
+                    <div class="col-xs-12 design_template">
+                        <div class="template_padding">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template "
+                                alt="" style="{{is_new}}">
+                            <a href="/posts/{{slug}}">
+                                <h3 class="post_title">{{title}} </h3>
+                                <div class="template_img_container" style="position:relative">
+                                    <img src="{{image_url}}" alt="Design Template" class="template_img" />
+                                    <div class="template_hover">
+                                    </div>
+                                    <div class="hover_see_more_btn">
+                                        <h3 class="hover_text">View Full Design </h3>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
