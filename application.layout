@@ -18,6 +18,7 @@
         <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick-theme.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="../application.css" rel="stylesheet">
+        <link href="../template.css" rel="stylesheet">
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!--Mustache is a client side templating engine //github.com/janl/mustache.js/ -->
