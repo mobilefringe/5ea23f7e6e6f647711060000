@@ -34,12 +34,7 @@ function init(){
             previousScroll = scroller;
         }
     });
-    
-    var navbar = document.getElementById("header");
-	
-	
 
-        
     function renderAll(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
