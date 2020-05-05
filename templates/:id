@@ -542,12 +542,15 @@
         $('#mobile_container').slick({
           infinite: true,
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          prevArrow: '',
+          nextArrow: ''
         });
         $('#desktop_container').slick({
           infinite: true,
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          prevArrow: ''
         });
         // .flexslider({
         //     animation: "slide",
