@@ -539,14 +539,19 @@
         //     minItems: 1,
         //     maxItems: 3
         // });
-        $('.flexslider_view').flexslider({
-            animation: "slide",
-            pauseOnHover: true,
-            slideshow: false,
-            smoothHeight: true,
-            prevText: "",
-            nextText: ""
-        }); 
+        $('.flexslider_view').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1
+        });
+        // .flexslider({
+        //     animation: "slide",
+        //     pauseOnHover: true,
+        //     slideshow: false,
+        //     smoothHeight: true,
+        //     prevText: "",
+        //     nextText: ""
+        // }); 
         window.dispatchEvent(new Event('resize'));
         setTimeout(function() {
                 show_content();
