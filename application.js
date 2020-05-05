@@ -398,7 +398,7 @@ function renderAll(){
     }); 
     //console.log(sorted_templates);
     sorted_corp_templates = sorted_corp_templates.sortBy(function(o){ return o.publish_date }).reverse();
-    console.log(sorted_corp_templates);
+    console.log('sorted_corp_templates', sorted_corp_templates);
     renderGeneral('#corp_design_container','#corp_design_template', sorted_corp_templates);
     
     $("#premium").click(function(e) {
