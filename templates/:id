@@ -550,7 +550,8 @@
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
-          prevArrow: ''
+          prevArrow: '',
+          nextArrow: ''
         });
         // .flexslider({
         //     animation: "slide",
