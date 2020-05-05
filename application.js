@@ -36,41 +36,9 @@ function init(){
     });
 
     function renderAll(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
-        var blog = getBlogDataBySlug('home-features');
-        blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
-        var post_details = getPostDetailsBySlug(slug);
         
-        renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog_posts);
-        renderFeaturePages("#feature_page_container", "#feature_page_template", blog_posts);
-        renderFeaturePages("#footer_container", "#footer_template", blog_posts);
     }
-    
-    function renderFeaturePages(feature_page_container, feature_page_template, posts){
-        var item_list = [];
-        var item_rendered = [];
-        var template_html = $(feature_page_template).html();
-        $.each(posts, function(key, val) {
-            var rendered = Mustache.render(template_html, val);
-            item_rendered.push(rendered);
-        });
-        $(feature_page_container).html(item_rendered.join(''));
-    }
-    
-    function renderMobileFeature(mobile_feature_container, mobile_feature_template, posts){
-        var item_list = [];
-        var item_rendered = [];
-        var template_html = $(feature_page_template).html();
-        $.each(posts, function(key, val) {
-            var rendered = Mustache.render(template_html, val);
-            item_rendered.push(rendered);
-        });
-        $(mobile_feature_container).html(item_rendered.join(''));
-    }
-    
     loadMallDataCached(renderAll);  
-    
 }
 
 function templateInit () {
