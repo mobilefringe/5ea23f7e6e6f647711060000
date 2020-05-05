@@ -378,7 +378,7 @@ function renderAll(){
     }); 
     //console.log(sorted_templates);
     sorted_n_templates = sorted_n_templates.sortBy(function(o){ return o.publish_date }).reverse();
-    console.log(sorted_n_templates);
+    console.log('sorted_n_templates', sorted_n_templates);
     renderGeneral('#newsletter_design_container','#newsletter_design_template', sorted_n_templates);
     
     var sorted_corp_templates = [];
